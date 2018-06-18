@@ -19,8 +19,8 @@ public class TestClass {
 	@Test
 	public void firstTest() {
 		driver.get("http://newtours.demoaut.com");
-		driver.findElement(By.name("userName")).sendKeys("sopan");
-		driver.findElement(By.name("password")).sendKeys("sopan");
+		driver.findElement(By.name("userName")).sendKeys("mercury");
+		driver.findElement(By.name("password")).sendKeys("mercury");
 	}
 
 	@AfterMethod
